@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+}
+
+nav {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.bio-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.bio-card {
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Resume Page */
+.resume-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
